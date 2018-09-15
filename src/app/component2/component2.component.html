@@ -1,0 +1,16 @@
+<div>
+	<table style="width:100%">
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>User Id</th>
+    <th>Body</th>
+  </tr>
+  <tr *ngFor = 'let item of extractData'>
+    <td>{{item.id}}</td>
+    <td >{{item.title}}</td> 
+    <td >{{item.userId}}</td> 
+    <td >{{item.body}}</td> 
+  </tr>
+  </table>
+</div>

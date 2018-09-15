@@ -1,0 +1,12 @@
+<div>
+	<table style="width:100%">
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+  </tr>
+  <tr *ngFor = 'let item of myList'>
+    <td>{{item.id}}</td>
+    <td (click)="detailsPage(item.id)">{{item.title}}</td> 
+  </tr>
+  </table>
+</div>
